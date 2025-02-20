@@ -1,0 +1,60 @@
+[versions]
+agp = "8.7.1"
+core = "4.6.2"
+generativeai = "0.9.0"
+googleCloudAiplatform = "2.15.1"
+googleCloudAiplatformVersion = "2.14.1"
+gson = "2.10.1"
+itext7Core = "7.2.2"
+json = "20230618"
+kernel = "7.2.5"
+kotlin = "1.9.24"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+lottie = "6.3.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+googleGmsGoogleServices = "4.4.2"
+firebaseAuth = "23.1.0"
+materialVersion = "1.11.0"
+okhttp = "4.12.0"
+pdfbox = "2.0.29"
+retrofit = "2.9.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+core = { module = "io.noties.markwon:core", version.ref = "core" }
+generativeai = { module = "com.google.ai.client.generativeai:generativeai", version.ref = "generativeai" }
+google-cloud-aiplatform = { module = "com.google.cloud:google-cloud-aiplatform", version.ref = "googleCloudAiplatform" }
+google-cloud-aiplatform-v2141 = { module = "com.google.cloud:google-cloud-aiplatform", version.ref = "googleCloudAiplatformVersion" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+itext7-core-v722 = { module = "com.itextpdf:itext7-core", version.ref = "itext7Core" }
+itext7-kernel = { module = "com.itextpdf:itext7-kernel", version.ref = "itext7Core" }
+itext7-layout = { module = "com.itextpdf:itext7-layout", version.ref = "itext7Core" }
+json = { module = "org.json:json", version.ref = "json" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kernel = { module = "com.itextpdf:kernel", version.ref = "kernel" }
+layout = { module = "com.itextpdf:layout", version.ref = "kernel" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+material-v1110 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+pdfbox = { module = "org.apache.pdfbox:pdfbox", version.ref = "pdfbox" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+
